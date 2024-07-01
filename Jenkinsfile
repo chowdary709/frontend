@@ -13,7 +13,7 @@ pipeline {
 
         stage('Release') {
             steps {
-                sh 'env'
+//                 sh 'env'
                 echo 'CI' /////
             }
         }
