@@ -19,9 +19,8 @@ pipeline {
         stage('Release') {
 //             when {
 //                 expression { env.TAG_NAME ==~ ".*" }
-//             }
+//             } /
             steps {
-                sh 'curl ifconfig.me'
                 sh 'env'   // Print the environment variables
                 echo 'CI'
             }
