@@ -19,7 +19,7 @@ pipeline {
         stage('Release') {
 //             when {
 //                 expression { env.TAG_NAME ==~ ".*" }
-//             } /
+//             }
             steps {
                 sh 'env'   // Print the environment variables
                 echo 'CI'
