@@ -22,7 +22,7 @@ pipeline {
 //             }
             steps {
                 sh 'curl ifconfig.me'
-//                 sh 'env'   // Print the environment variables
+                sh 'env'   // Print the environment variables
                 echo 'CI'
             }
         }
