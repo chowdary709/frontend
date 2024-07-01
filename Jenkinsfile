@@ -6,7 +6,7 @@ pipeline {
             when {
                 allOf {
                     branch 'main'  // Check if the branch being built is 'main'
-                    expression { env.TAG_NAME != env.BRANCH_NAME }  // Check if TAG_NAME is different from BRANCH_NAME
+                    expression { env.TAG_NAME != env.BRANCH_NAME } // TAG_NAME మరియు BRANCH_NAME విలువలు అసమానమైనప్పుడే రన్ అవుతుంది.
                 }
             }
             steps {  // Run the SonarQube scanner for code quality analysis
