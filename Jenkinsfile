@@ -13,6 +13,7 @@ pipeline {
 
         stage('Release') {
             steps {
+                sh 'ip -4 addr show'
 //                 sh 'env'
                 echo 'CI' /////
             }
