@@ -1,6 +1,10 @@
 pipeline {
     agent { label 'workstation' } // Define the agent where the pipeline will run
 
+    options {
+        ansiColor('xterm')
+    }
+
     stages {
         stage('Code Quality') {   // This stage runs only on the 'main' branch, and only if TAG_NAME is different from BRANCH_NAME
             when {
