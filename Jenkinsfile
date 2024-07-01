@@ -2,7 +2,7 @@ pipeline {
     agent { label 'workstation' } // Define the agent where the pipeline will run
 
     options {
-        ansiColor('xterm')
+        ansiColor('xterm') //
     }
 
     stages {
