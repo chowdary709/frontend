@@ -20,7 +20,7 @@ pipeline {
 //             when {
 //                 expression { env.TAG_NAME ==~ ".*" }
 //             }
-            steps { /
+            steps {
                 sh 'env'   // Print the environment variables
                 echo 'CI'
             }
