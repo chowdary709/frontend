@@ -1,0 +1,67 @@
+tags
+----------------------------------------------------------------
++ env
+BRANCH_NAME=v1.0.1
+GIT_COMMIT=ad37bf57aad15dbf808fc379ea7c1fadf572c05c
+RUN_DISPLAY_URL=https://jenkins.chaitu.net/job/prasad/job/frontend/job/v1.0.1/1/display/redirect
+JENKINS_URL=https://jenkins.chaitu.net/
+EXECUTOR_NUMBER=3
+SSH_CONNECTION=129.159.23.81 53996 172.31.41.9 22
+_=/usr/bin/env
+LANG=en_US.utf-8
+BUILD_ID=1
+HISTTIMEFORMAT=%d/%m/%y %T
+OLDPWD=/home/centos
+RUN_CHANGES_DISPLAY_URL=https://jenkins.chaitu.net/job/prasad/job/frontend/job/v1.0.1/1/display/redirect?page=changes
+JENKINS_NODE_COOKIE=d2f99ae7-aef9-4b2b-9d2f-4ab9c18d2b5f
+JOB_BASE_NAME=v1.0.1
+WORKSPACE_TMP=/home/centos/workspace/prasad_frontend_v1.0.1@tmp
+which_declare=declare -f
+CI=true
+GIT_URL=https://github.com/chowdary709/frontend
+HUDSON_COOKIE=89c9a304-bf70-4699-817c-9fc17be44ff6
+XDG_SESSION_ID=32
+USER=centos
+BUILD_NUMBER=1
+WORKSPACE=/home/centos/workspace/prasad_frontend_v1.0.1
+PWD=/home/centos/workspace/prasad_frontend_v1.0.1
+HUDSON_URL=https://jenkins.chaitu.net/
+HOME=/home/centos
+NODE_NAME=workstation
+TAG_NAME=v1.0.1
+HUDSON_SERVER_COOKIE=2daea2d6adee1f01
+SSH_CLIENT=129.159.23.81 53996 22
+ANSIBLE_DEPRECATION_WARNINGS=False
+JENKINS_HOME=/var/snap/jenkins/4686
+JOB_NAME=prasad/frontend/v1.0.1
+RUN_TESTS_DISPLAY_URL=https://jenkins.chaitu.net/job/prasad/job/frontend/job/v1.0.1/1/display/redirect?page=tests
+HUDSON_HOME=/var/snap/jenkins/4686
+JOB_DISPLAY_URL=https://jenkins.chaitu.net/job/prasad/job/frontend/job/v1.0.1/display/redirect
+SYSTEMD_PAGER=cat
+TAG_UNIXTIME=1719897485
+RUN_ARTIFACTS_DISPLAY_URL=https://jenkins.chaitu.net/job/prasad/job/frontend/job/v1.0.1/1/display/redirect?page=artifacts
+TAG_DATE=Tue Jul 02 05:18:05 UTC 2024
+BUILD_URL=https://jenkins.chaitu.net/job/prasad/job/frontend/job/v1.0.1/1/
+SHELL=/bin/bash
+TERM=xterm
+STAGE_NAME=Release
+JOB_URL=https://jenkins.chaitu.net/job/prasad/job/frontend/job/v1.0.1/
+BUILD_DISPLAY_NAME=#1
+ANSIBLE_FORCE_COLOR=1
+SHLVL=3
+GIT_BRANCH=v1.0.1
+PROMPT_COMMAND=$(history -w)
+BUILD_TAG=jenkins-prasad-frontend-v1.0.1-1
+TAG_TIMESTAMP=1719897485000
+NODE_LABELS=workstation
+LOGNAME=centos
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+XDG_RUNTIME_DIR=/run/user/1000
+PATH=/home/centos/.local/bin:/home/centos/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+DEBUGINFOD_URLS=https://debuginfod.centos.org/
+HISTSIZE=10000
+JENKINS_SERVER_COOKIE=durable-b59505733ae51ddf40f56324294a5a4f1d6a7e0aa5339151a733088d121c12a5
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
