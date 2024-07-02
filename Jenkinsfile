@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'workstation' }
+    agent { label 'workstation-prasad' }
     options {
         ansiColor('xterm')
     }
