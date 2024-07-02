@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Release') {
             steps {
-                sh 'env'   // Print the environment variables///
+                sh 'env'   // Print the environment variables
                 echo 'CI'
             }
         }
