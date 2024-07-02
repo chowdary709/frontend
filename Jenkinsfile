@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh 'env'   // Print the environment variables
                 echo 'CI'
-            }
+            }e
         }
     }
 }
