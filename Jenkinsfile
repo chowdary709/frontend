@@ -1,12 +1,14 @@
 pipeline {
     agent { label 'workstation' }
+
     options {
         ansiColor('xterm')
     }
+
     stages {
         stage('Code Quality') {
             when {
-                allof {
+                allOf {
                     branch 'main'
                     expression { env.TAG_NAME != env.BRANCH_NAME }
                 }
@@ -18,8 +20,9 @@ pipeline {
         stage('Release') {
             when {
                 expression { env.TAG_NAME ==~ ".*" }
+            }
             steps {
-                sh 'env'   // Print the environment variables/
+                sh 'env'   // Print the environment variables
                 echo 'CI'
             }
         }
