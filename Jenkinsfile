@@ -12,6 +12,7 @@ pipeline {
                 cd /root/frontend
                 ls -la
                 """
+             }
         }
         stage('Code Quality') {
             when {
